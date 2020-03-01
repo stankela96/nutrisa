@@ -7,7 +7,6 @@ body {
 }
 
 header {
-  /* border: 2px solid greenyellow; */
   padding: 0.3em;
   font-weight: 400;
   display: inline-flexbox;
@@ -25,7 +24,6 @@ header a:hover {
 }
 
 .logo {
-  /*  border: 2px solid blue; */
   font-family: Caveat Brush;
   padding: 0.1em 0.3em;
   margin-left: 1em;
@@ -34,7 +32,6 @@ header a:hover {
 }
 
 .nav {
-  /* border: 2px solid black; */
   padding: 0.5em 0.5em;
   font-size: 1em;
   font-weight: bold;
