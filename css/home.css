@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap&subset=latin-ext");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
@@ -12,7 +12,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-weight: 400;
   background-color: #cf3333;
 }
 
@@ -36,7 +35,7 @@ header {
   justify-content: space-around;
   width: 65%;
   font-size: 0.92 em;
-  font-weight: bold;
+  font-weight: 600;
   list-style-type: none;
 }
 
@@ -47,7 +46,7 @@ header {
 .nav-links a {
   color: whitesmoke;
   text-decoration: none;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.5px;
 }
 
 .burger {
@@ -79,6 +78,71 @@ header {
   left: 45%;
   font-weight: 700;
   font-size: 4em;
+}
+
+footer {
+  display: flex;
+  background-color: #cf3333;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bottom-nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  font-size: 0.92em;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+.bottom-nav-links a:hover {
+  color: lightsalmon;
+}
+
+.bottom-nav-links a {
+  color: whitesmoke;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.div-footer {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  background-color: #cf3333;
+}
+
+.div-footer a {
+  text-decoration: none;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 500;
+}
+
+.div-footer a:hover {
+  color: lightsalmon;
+}
+
+.div-footer p {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: whitesmoke;
+  margin-left: 2.3em;
+}
+
+@media screen and (max-width: 843px) {
+  .bottom-nav-links {
+    display: none;
+  }
+
+  .div-footer {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
