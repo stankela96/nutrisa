@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 body {
@@ -9,6 +10,9 @@ body {
 }
 
 header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -67,22 +71,45 @@ header {
 
 .introSlika img {
   width: 100%;
+
   margin-bottom: -0.3em;
   filter: brightness(40%);
+}
+
+.cetiriRecenice {
+  width: 100%;
+  background-color: #f29f3d;
+  display: inline-block;
+  color: #131516;
+  font-size: 1em;
+  font-weight: 450;
+}
+
+.cetiriRecenice p {
+  justify-content: space-around;
+}
+
+.kurziv {
+  font-family: Caveat;
+  color: whitesmoke;
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  font-size: 1.9em;
 }
 
 .introTekst {
   color: whitesmoke;
   position: absolute;
-  top: 45%;
-  left: 45%;
-  font-weight: 700;
-  font-size: 4em;
+  top: 28%;
+  left: 28%;
+  font-size: 3.2em;
+  font-weight: 600;
 }
 
 footer {
   display: flex;
-  background-color: #cf3333;
+  background-color: #9bcb3c;
   align-items: center;
   justify-content: space-around;
 }
@@ -92,16 +119,16 @@ footer {
   justify-content: space-around;
   width: 50%;
   font-size: 0.92em;
-  font-weight: 500;
+  font-weight: 600;
   list-style-type: none;
 }
 
 .bottom-nav-links a:hover {
-  color: lightsalmon;
+  color: darkslategray;
 }
 
 .bottom-nav-links a {
-  color: whitesmoke;
+  color: #131516;
   text-decoration: none;
   letter-spacing: 0.5px;
 }
@@ -110,32 +137,45 @@ footer {
   align-items: center;
   justify-content: space-around;
   display: flex;
-  background-color: #cf3333;
+  background-color: #9bcb3c;
 }
 
 .div-footer a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #131516;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .div-footer a:hover {
-  color: lightsalmon;
+  color: darkslategray;
 }
 
 .div-footer p {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: whitesmoke;
+  color: #131516;
   margin-left: 2.3em;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 843px) {
+  .kurziv {
+    left: 25%;
+    word-wrap: break-word;
+    font-size: 1.5em;
+  }
+
+  .introTekst {
+    top: 39%;
+    left: 25%;
+    font-size: 2em;
+    word-wrap: break-word;
+  }
   .bottom-nav-links {
     display: none;
   }
@@ -146,14 +186,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .introSlika img {
-    z-index: -1;
-  }
-
-  .introTekst {
-    z-index: -1;
-  }
-
   .logo {
     margin-left: 27%;
   }
