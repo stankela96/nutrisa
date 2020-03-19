@@ -7,6 +7,7 @@ body {
   font-family: Montserrat, sans-serif;
   margin: 0;
   overflow-x: hidden;
+  background-color: #eff669;
 }
 
 header {
@@ -66,45 +67,96 @@ header {
 }
 
 .introSlika {
+  text-align: center;
   position: relative;
 }
 
 .introSlika img {
   width: 100%;
-
   margin-bottom: -0.3em;
   filter: brightness(40%);
-}
-
-.cetiriRecenice {
-  width: 100%;
-  background-color: #f29f3d;
-  display: inline-block;
-  color: #131516;
-  font-size: 1em;
-  font-weight: 450;
-}
-
-.cetiriRecenice p {
-  justify-content: space-around;
 }
 
 .kurziv {
   font-family: Caveat;
   color: whitesmoke;
-  position: absolute;
-  top: 25%;
-  left: 38%;
   font-size: 1.9em;
+  position: absolute;
+  top: 35%;
+  left: 35%;
 }
 
 .introTekst {
   color: whitesmoke;
-  position: absolute;
-  top: 28%;
-  left: 28%;
   font-size: 3.2em;
   font-weight: 600;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+
+.cetiriRecenice {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  background-color: #f29f3d;
+  display: inline-block;
+  color: #131516;
+  font-size: 1em;
+  font-weight: 550;
+  border-radius: 5pt;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.naslov {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 550;
+  color: #131516;
+}
+
+.fact {
+  margin-left: 2em;
+  margin-right: 2em;
+  justify-content: space-around;
+  padding-bottom: 1.3em;
+}
+
+section.doba {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  text-align: center;
+}
+
+section.doba div {
+  margin-bottom: -0.285em;
+}
+
+section.doba div img {
+  width: 100%;
+  filter: brightness(40%);
+}
+
+.deca {
+  text-align: center;
+  position: relative;
+}
+
+.tekst {
+  border: 2px solid crimson;
+  width: 90%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-left: 5%;
+  position: absolute;
+  top: 5%;
+  bottom: 6%;
+  color: whitesmoke;
+}
+
+.tekst h2 {
+  margin-top: 0;
 }
 
 footer {
@@ -154,7 +206,6 @@ footer {
 }
 
 .div-footer p {
-  /* width: 50%; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -165,15 +216,15 @@ footer {
 
 @media screen and (max-width: 843px) {
   .kurziv {
-    left: 25%;
+    left: 17%;
     word-wrap: break-word;
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .introTekst {
-    top: 39%;
-    left: 25%;
-    font-size: 2em;
+    top: 45.5%;
+    left: 17%;
+    font-size: 1em;
     word-wrap: break-word;
   }
   .bottom-nav-links {
@@ -181,7 +232,13 @@ footer {
   }
 
   .div-footer {
-    display: none;
+    display: flex;
+  }
+
+  section.doba {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    text-align: center;
   }
 }
 
