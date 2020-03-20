@@ -92,7 +92,7 @@ header {
   font-weight: 600;
   position: absolute;
   top: 40%;
-  left: 25%;
+  left: 22%;
 }
 
 .cetiriRecenice {
@@ -139,7 +139,7 @@ section.doba div img {
 }
 
 .deca {
-  text-align: center;
+  text-align: justify;
   position: relative;
 }
 
@@ -153,10 +153,12 @@ section.doba div img {
   top: 5%;
   bottom: 6%;
   color: whitesmoke;
+  font-size: 1em;
 }
 
 .tekst h2 {
   margin-top: 0;
+  text-align: center;
 }
 
 footer {
@@ -214,17 +216,42 @@ footer {
   font-weight: 600;
 }
 
-@media screen and (max-width: 843px) {
-  .kurziv {
-    left: 17%;
-    word-wrap: break-word;
+/* @media only screen and (min-device-width: 835px) and (max-device-width: 1298px) {
+  .introTekst {
+    left: 16%;
+  }
+
+  .tekst {
     font-size: 1em;
+  }
+} */
+
+@media only screen and (max-device-width: 1024px) {
+  .kurziv {
+    left: 27%;
+  }
+
+  .introTekst {
+    left: 14%;
+    font-size: 2.8em;
+  }
+
+  .tekst {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-device-width: 834px) {
+  .kurziv {
+    left: 24.5%;
+    word-wrap: break-word;
+    font-size: 1.5em;
   }
 
   .introTekst {
     top: 45.5%;
     left: 17%;
-    font-size: 1em;
+    font-size: 2em;
     word-wrap: break-word;
   }
   .bottom-nav-links {
@@ -232,13 +259,18 @@ footer {
   }
 
   .div-footer {
-    display: flex;
+    display: none;
   }
 
   section.doba {
     display: grid;
     grid-template-columns: repeat(1, 100%);
     text-align: center;
+  }
+
+  .tekst {
+    text-align: justify;
+    font-size: 2em;
   }
 }
 
@@ -268,6 +300,42 @@ footer {
   .burger {
     display: block;
     cursor: pointer;
+  }
+}
+
+@media only screen and (max-device-width: 414px) {
+  .kurziv {
+    top: 42%;
+    left: 16%;
+    font-size: 1em;
+  }
+
+  .introTekst {
+    top: 51%;
+    left: 12%;
+    font-size: 1.2em;
+  }
+
+  .tekst {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-device-width: 375px) {
+  .kurziv {
+    top: 42%;
+    left: 16%;
+    font-size: 1em;
+  }
+
+  .introTekst {
+    top: 51%;
+    left: 12%;
+    font-size: 1.1em;
+  }
+
+  .tekst {
+    font-size: 1.05em;
   }
 }
 
