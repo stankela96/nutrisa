@@ -95,38 +95,53 @@ header {
   left: 20%;
 }
 
-.cetiriRecenice {
-  width: 60%;
-  margin-left: 20%;
-  margin-top: 5em;
-  margin-bottom: 5em;
-  background-color: #f29f3d;
-  display: inline-block;
-  color: #131516;
-  font-size: 1em;
-  font-weight: 550;
-  border-radius: 5pt;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .naslov {
+  width: 24%;
+  margin-left: 38%;
   text-align: center;
-  font-size: 2em;
+  border-radius: 4pt;
+  padding-top: 0.5em;
+  margin-top: -0.15em;
+  padding-bottom: 0.35em;
+  margin-bottom: 1.75em;
+  background-color: #f29f3d;
+  font-size: 1.5em;
   font-weight: 550;
   color: #131516;
 }
 
-.fact {
-  margin-left: 2em;
-  margin-right: 2em;
-  justify-content: space-around;
-  padding-bottom: 1.3em;
+.nepar {
+  width: 62%;
+  text-align: justify;
+  border-radius: 4pt;
+  background-color: #f29f3d;
+  font-size: 1em;
+  color: #131516;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 0.5em;
+  margin-left: -0.5em;
+}
+
+.par {
+  width: 62%;
+  margin-left: 38%;
+  text-align: justify;
+  border-radius: 4pt;
+  background-color: #f29f3d;
+  font-size: 1em;
+  color: #131516;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-right: 0.5em;
+  margin-right: -0.5em;
 }
 
 section.doba {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   text-align: center;
+  margin-top: 2.75em;
 }
 
 section.doba div {
@@ -310,6 +325,11 @@ footer {
     font-size: 1em;
   }
 
+  .naslov {
+    width: 80%;
+    margin-left: 10%;
+  }
+
   .introTekst {
     top: 51%;
     left: 12%;
@@ -322,6 +342,11 @@ footer {
 }
 
 @media only screen and (max-device-width: 375px) {
+  .naslov {
+    width: 80%;
+    margin-left: 10%;
+  }
+
   .kurziv {
     top: 42%;
     left: 16%;
