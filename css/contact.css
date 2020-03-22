@@ -12,11 +12,11 @@ body {
 header {
   position: fixed;
   width: 100%;
-  z-index: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #cf3333;
+  /* border: 2px solid yellow; */
 }
 
 .logo {
@@ -65,9 +65,20 @@ header {
   transition: all 0.3s ease;
 }
 
-.sec {
-  height: 20vh;
-  background-color: red;
+section.sec {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.kontakt {
+  /*  height: 150px; */
+  background-color: blue;
+  border: 5px solid yellow;
+  margin-top: 3.5em;
+}
+
+iframe {
+  margin-top: 3.5em;
 }
 
 footer {
@@ -123,6 +134,29 @@ footer {
   color: #131516;
   margin-left: 2.3em;
   font-weight: 600;
+}
+
+@media only screen and (max-device-width: 834px) {
+  .kontakt {
+    background-color: blue;
+  }
+
+  section.sec {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  iframe {
+    margin-top: 0;
+  }
+
+  .bottom-nav-links {
+    display: none;
+  }
+
+  .div-footer {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
