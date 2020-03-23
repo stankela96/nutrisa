@@ -53,6 +53,10 @@ header {
   letter-spacing: 0.5px;
 }
 
+.nav-links .tag a {
+  text-decoration-line: underline;
+}
+
 .burger {
   display: none;
 }
@@ -71,10 +75,20 @@ section.sec {
 }
 
 .kontakt {
-  /*  height: 150px; */
-  background-color: blue;
-  border: 5px solid yellow;
+  background-color: #f29f3d;
   margin-top: 3.5em;
+}
+
+.podaci {
+  background-color: rgba(239, 246, 105, 0.3);
+  border-radius: 4pt;
+  color: #131516;
+  font-size: 1em;
+  font-weight: 450;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 8em;
+  padding: 0.5em;
 }
 
 iframe {
@@ -137,8 +151,9 @@ footer {
 }
 
 @media only screen and (max-device-width: 834px) {
-  .kontakt {
-    background-color: blue;
+  .podaci {
+    margin-top: 4em;
+    margin-bottom: 4em;
   }
 
   section.sec {
