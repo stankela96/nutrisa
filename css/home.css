@@ -100,48 +100,49 @@ header {
 }
 
 .naslov {
-  width: 24%;
-  margin-left: 38%;
+  width: 28%;
+  margin-left: 36%;
   text-align: center;
   border-radius: 4pt;
-  padding-top: 0.5em;
+  padding-top: 0.6em;
   margin-top: -0.15em;
-  padding-bottom: 0.35em;
+  padding-bottom: 0.6em;
   margin-bottom: 1.75em;
   background-color: #f29f3d;
   font-size: 1.5em;
   font-weight: 550;
   color: #131516;
-  box-shadow: 0px 0px 3px 0.5px rgba(19, 21, 22, 0.5);
 }
 
 .nepar {
+  border-radius: 0pt 4pt 4pt 0pt;
   width: 62%;
   text-align: justify;
-  border-radius: 4pt;
   background-color: #f29f3d;
   font-size: 1em;
   color: #131516;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  padding-left: 0.5em;
-  margin-left: -0.5em;
-  box-shadow: 0px 0px 3px 0.5px rgba(19, 21, 22, 0.5);
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .par {
+  border-radius: 4pt 0pt 0pt 4pt;
   width: 62%;
-  margin-left: 38%;
+  margin-left: 36%;
   text-align: justify;
-  border-radius: 4pt;
   background-color: #f29f3d;
   font-size: 1em;
   color: #131516;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  padding-right: 0.5em;
-  margin-right: -0.5em;
-  box-shadow: 0px 0px 3px 0.5px rgba(19, 21, 22, 0.5);
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 section.doba {
@@ -166,7 +167,6 @@ section.doba div img {
 }
 
 .tekst {
-  border: 2px solid crimson;
   width: 90%;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -237,16 +237,6 @@ footer {
   margin-left: 2.3em;
   font-weight: 600;
 }
-
-/* @media only screen and (min-device-width: 835px) and (max-device-width: 1298px) {
-  .introTekst {
-    left: 16%;
-  }
-
-  .tekst {
-    font-size: 1em;
-  }
-} */
 
 @media only screen and (max-device-width: 1024px) {
   .kurziv {
@@ -349,6 +339,9 @@ footer {
 }
 
 @media only screen and (max-device-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
   .naslov {
     width: 80%;
     margin-left: 10%;
