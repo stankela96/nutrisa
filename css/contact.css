@@ -80,7 +80,8 @@ section.sec {
   margin-top: 3.5em;
   text-align: justify;
   position: relative;
-  border-right: 1px solid silver;
+  /* border-right: 1px solid silver; */
+  z-index: -1;
 }
 
 section.sec div img {
@@ -104,6 +105,7 @@ section.sec div img {
 
 iframe {
   margin-top: 3.5em;
+  z-index: 1;
 }
 
 footer {
@@ -111,6 +113,7 @@ footer {
   background-color: #9bcb3c;
   align-items: center;
   justify-content: space-around;
+  z-index: 1;
 }
 
 .bottom-nav-links {
@@ -163,8 +166,9 @@ footer {
 
 @media only screen and (max-device-width: 834px) {
   .kontakt {
-    border-bottom: 1px solid silver;
+    /* border-bottom: 1px solid silver; */
     border-right: 0px;
+    z-index: -1;
   }
   section.sec {
     display: grid;
