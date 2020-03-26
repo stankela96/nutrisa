@@ -70,6 +70,7 @@ header {
   margin: 5px;
   transition: all 0.3s ease;
 }
+
 section.sredina {
   padding-top: 3.5em;
   width: 100%;
@@ -77,9 +78,41 @@ section.sredina {
   position: relative;
 }
 
-section.sredina img {
-  width: 100%;
+section.sredina .banner {
+  width: 1290px;
+  height: 100%;
   margin-bottom: -0.26em;
+}
+
+.intro {
+  position: absolute;
+  text-align: center;
+  width: 55%;
+  margin-left: 20%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #f29f3d;
+  color: #131516;
+  border-radius: 0pt 0pt 4pt 4pt;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.postintro {
+  position: absolute;
+  top: 6.35em;
+  border-radius: 0pt 0pt 4pt 4pt;
+  background-color: #eff669;
+  width: 20%;
+  margin-left: 40%;
+  color: #131516;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .facts {
@@ -87,7 +120,7 @@ section.sredina img {
   width: 60%;
   margin-left: 20%;
   background-color: rgba(0, 0, 0, 0);
-  top: 7em;
+  top: 14em;
   border-radius: 4pt;
 }
 
@@ -125,7 +158,7 @@ section.sredina img {
 
 #poslednjiFact {
   border-radius: 0pt 0pt 4pt 4pt;
-  margin-bottom: 0em;
+  margin-bottom: 2em;
 }
 
 #poslednjiFact .image img {
@@ -188,6 +221,18 @@ footer {
   font-weight: 600;
 }
 
+@media only screen and (max-device-width: 1112px) {
+  .postintro {
+    top: 7.35em;
+  }
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .postintro {
+    top: 7.28em;
+  }
+}
+
 @media only screen and (max-device-width: 834px) {
   .bottom-nav-links {
     display: none;
@@ -195,6 +240,12 @@ footer {
 
   .div-footer {
     display: none;
+  }
+
+  .postintro {
+    top: 7.1em;
+    width: 26%;
+    margin-left: 37%;
   }
 }
 
@@ -225,6 +276,10 @@ footer {
     display: block;
     cursor: pointer;
   }
+
+  .postintro {
+    top: 8.2em;
+  }
 }
 
 @media only screen and (max-device-width: 414px) {
@@ -236,12 +291,53 @@ footer {
   .fact {
     width: 100%;
     height: 80px;
-    font-size: 0.8em;
-    font-weight: 400;
+    font-size: 0.78em;
+    font-weight: 500;
+  }
+
+  .intro {
+    font-size: 1em;
+  }
+
+  .postintro {
+    font-size: 1em;
+    top: 10.25em;
+    width: 32%;
+    margin-left: 34%;
   }
 }
 
 @media only screen and (max-device-width: 375px) {
+  .intro {
+    font-size: 0.95em;
+  }
+
+  .postintro {
+    font-size: 0.95em;
+    top: 10.45em;
+    width: 34%;
+    margin-left: 33%;
+  }
+}
+
+@media only screen and (max-device-width: 360px) {
+  .intro {
+    font-size: 0.9em;
+  }
+
+  .postintro {
+    font-size: 0.95em;
+    top: 10.05em;
+    width: 34%;
+    margin-left: 33%;
+  }
+
+  .fact {
+    width: 100%;
+    height: 80px;
+    font-size: 0.72em;
+    font-weight: 500;
+  }
 }
 
 .nav-active {
