@@ -112,6 +112,7 @@ header {
   font-size: 1.5em;
   font-weight: 550;
   color: #131516;
+  box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, 0.5);
 }
 
 .nepar {
@@ -127,6 +128,7 @@ header {
   padding-right: 1%;
   padding-top: 1em;
   padding-bottom: 1em;
+  box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, 0.5);
 }
 
 .par {
@@ -143,6 +145,7 @@ header {
   padding-right: 1%;
   padding-top: 1em;
   padding-bottom: 1em;
+  box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, 0.5);
 }
 
 section.doba {
@@ -154,6 +157,7 @@ section.doba {
 
 section.doba div {
   margin-bottom: -0.285em;
+  /* border: 2px solid crimson; */
 }
 
 section.doba div img {
@@ -176,6 +180,7 @@ section.doba div img {
   bottom: 6%;
   color: whitesmoke;
   font-size: 1em;
+  height: 90%;
 }
 
 .tekst h2 {
@@ -335,6 +340,10 @@ footer {
 
   .tekst {
     font-size: 1.2em;
+  }
+
+  .nepar {
+    padding-right: 0.5em;
   }
 }
 
