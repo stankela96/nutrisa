@@ -7,6 +7,9 @@ body {
   font-family: Montserrat, sans-serif;
   margin: 0;
   overflow-x: hidden;
+  background-image: url(/css/anna-pelzer-IGfIGP5ONV0-unsplash.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -71,37 +74,37 @@ header {
   transition: all 0.3s ease;
 }
 
-section.sredina {
+/* section.sredina {
   padding-top: 3.5em;
   width: 100%;
   color: whitesmoke;
   position: relative;
-}
+  border: 2px solid black;
+} */
 
-section.sredina .banner {
+/* section.sredina .banner {
   width: 1290px;
   height: 100%;
   margin-bottom: -0.26em;
-}
+} */
 
 .intro {
-  position: absolute;
   text-align: center;
   width: 55%;
   margin-left: 20%;
   padding-left: 2.5%;
   padding-right: 2.5%;
-  padding-top: 1%;
+  padding-top: 3.5em;
   padding-bottom: 1%;
   background-color: #f29f3d;
   color: #131516;
   border-radius: 0pt 0pt 4pt 4pt;
   font-weight: 500;
   font-size: 1.3em;
+  box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, 0.5);
 }
 
 .postintro {
-  position: absolute;
   top: 6.35em;
   border-radius: 0pt 0pt 4pt 4pt;
   background-color: #eff669;
@@ -113,13 +116,14 @@ section.sredina .banner {
   font-size: 1.3em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  margin-bottom: 2em;
+  box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, 0.5);
 }
 
 .facts {
-  position: absolute;
   width: 60%;
   margin-left: 20%;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
   top: 14em;
   border-radius: 4pt;
 }
@@ -137,15 +141,18 @@ section.sredina .banner {
 }
 
 .image {
-  width: 80px;
-  height: 80px;
+  width: 72px;
+  height: 72px;
   float: left;
   margin-right: 0.5em;
+  /* border: 2px solid aqua; */
 }
 
 .image img {
   width: 100%;
   height: 100%;
+  /* border: 2px solid aqua; */
+  padding-top: 3px;
 }
 
 #prviFact {
@@ -291,16 +298,17 @@ footer {
   .fact {
     width: 100%;
     height: 80px;
-    font-size: 0.78em;
-    font-weight: 500;
+    font-size: 0.65em;
+    font-weight: 600;
   }
 
   .intro {
-    font-size: 1em;
+    font-size: 0.93em;
+    padding-top: 4em;
   }
 
   .postintro {
-    font-size: 1em;
+    font-size: 0.95em;
     top: 10.25em;
     width: 32%;
     margin-left: 34%;
@@ -309,7 +317,7 @@ footer {
 
 @media only screen and (max-device-width: 375px) {
   .intro {
-    font-size: 0.95em;
+    font-size: 0.93em;
   }
 
   .postintro {
@@ -335,8 +343,8 @@ footer {
   .fact {
     width: 100%;
     height: 80px;
-    font-size: 0.72em;
-    font-weight: 500;
+    font-size: 0.65em;
+    font-weight: 600;
   }
 }
 
