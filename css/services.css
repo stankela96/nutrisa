@@ -82,13 +82,14 @@ header {
   padding-bottom: 1em;
   border-radius: 0pt 0pt 4pt 4pt;
   box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 3.5em;
 }
 
 section.recepti {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   text-align: center;
-  padding-top: 3.5em;
+  margin-bottom: 0em;
 }
 
 section.recepti div img {
@@ -99,7 +100,7 @@ section.recepti div img {
 .recept {
   text-align: justify;
   position: relative;
-  margin-bottom: -0.26em;
+  margin-bottom: -0.27em;
 }
 
 .tekst {
@@ -177,18 +178,9 @@ footer {
 }
 
 @media only screen and (max-device-width: 834px) {
-  .kontakt {
-    /* border-bottom: 1px solid silver; */
-    border-right: 0px;
-    z-index: -1;
-  }
-  section.sec {
+  section.recepti {
     display: grid;
     grid-template-columns: repeat(1, 100%);
-  }
-
-  iframe {
-    margin-top: 0;
   }
 
   .bottom-nav-links {
@@ -230,25 +222,12 @@ footer {
 }
 
 @media only screen and (max-device-width: 414px) {
-  .podaci {
-    top: 2em;
-    width: 90%;
-    margin-left: 5%;
-    height: 70%;
-    font-size: 0.95em;
-    font-weight: 550;
-  }
 }
 
 @media only screen and (max-device-width: 375px) {
-  .podaci {
-    top: 2em;
-    width: 90%;
-    margin-left: 5%;
-    height: 70%;
-    font-size: 0.82em;
-    font-weight: 550;
-  }
+}
+
+@media only screen and (max-device-width: 360px) {
 }
 
 .nav-active {
