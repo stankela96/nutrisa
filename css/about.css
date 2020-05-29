@@ -77,6 +77,8 @@ section.dvaDela {
   grid-template-columns: repeat(2, 50%);
   text-align: center;
   background-color: #eff669;
+  height: 90vh;
+  padding-bottom: 4em;
 }
 
 .ja {
