@@ -123,7 +123,7 @@ header {
 .facts {
   width: 60%;
   margin-left: 20%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   top: 14em;
   border-radius: 4pt;
 }
