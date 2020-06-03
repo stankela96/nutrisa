@@ -162,7 +162,7 @@ section.doba div {
 
 section.doba div img {
   width: 100%;
-  filter: brightness(40%);
+  filter: brightness(55%);
 }
 
 .deca {
@@ -181,6 +181,7 @@ section.doba div img {
   color: whitesmoke;
   font-size: 1em;
   height: 90%;
+  font-weight: 450;
 }
 
 .tekst h2 {
@@ -243,6 +244,21 @@ footer {
   font-weight: 600;
 }
 
+@media only screen and (max-device-width: 1112px) {
+  .kurziv {
+    left: 27%;
+  }
+
+  .introTekst {
+    left: 14%;
+    font-size: 2.8em;
+  }
+
+  .tekst {
+    font-size: 0.8em;
+  }
+}
+
 @media only screen and (max-device-width: 1024px) {
   .kurziv {
     left: 27%;
@@ -287,7 +303,7 @@ footer {
 
   .tekst {
     text-align: justify;
-    font-size: 2em;
+    font-size: 2.5em;
   }
 }
 
@@ -317,6 +333,11 @@ footer {
   .burger {
     display: block;
     cursor: pointer;
+  }
+
+  .tekst {
+    text-align: justify;
+    font-size: 2.2em;
   }
 }
 
@@ -369,7 +390,33 @@ footer {
   }
 
   .tekst {
-    font-size: 1.05em;
+    font-size: 1.15em;
+  }
+}
+
+@media only screen and (max-device-width: 360px) {
+  body {
+    overflow-x: hidden;
+  }
+  .naslov {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .kurziv {
+    top: 42%;
+    left: 16%;
+    font-size: 1em;
+  }
+
+  .introTekst {
+    top: 51%;
+    left: 12%;
+    font-size: 1.1em;
+  }
+
+  .tekst {
+    font-size: 1.1em;
   }
 }
 
