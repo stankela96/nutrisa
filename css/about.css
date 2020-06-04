@@ -90,7 +90,16 @@ section.dvaDela {
   border-radius: 4pt;
   box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, 0.5);
   padding: 1em;
+  text-align: left;
+}
+
+#naslov {
+  font-weight: 450;
   text-align: center;
+}
+
+.ja p i {
+  font-weight: 400;
 }
 
 .slikaJa {
@@ -115,6 +124,29 @@ section.dvaDela {
   border-radius: 4pt;
   box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, 0.5);
   padding: 1em;
+  text-align: left;
+}
+
+.slikaNesa {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.slikaNesa img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+#naslov1 {
+  font-weight: 450;
+  text-align: center;
+}
+
+#naslov1 i {
+  font-weight: 400;
 }
 
 footer {
