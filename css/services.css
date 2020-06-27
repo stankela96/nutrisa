@@ -86,6 +86,49 @@ header {
   font-weight: 450;
   font-size: 1.1em;
   text-align: center;
+  color: #131516;
+}
+
+.obrok {
+  width: 50%;
+  margin-left: 25%;
+  background-color: #f29f3d;
+  color: #131516;
+  border-radius: 4pt;
+  margin-bottom: 2em;
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+  font-weight: 450;
+}
+
+.obrok h4 {
+  font-weight: 550;
+  text-align: center;
+}
+
+.obrok:hover {
+  color: #f29f3d;
+  background-color: #131516;
+  /* width: 500px; */
+}
+
+#corba {
+  margin-left: 5%;
+}
+
+#mesano {
+  margin-left: 43%;
+}
+
+#sos {
+  margin-left: 5%;
+}
+
+#govedo {
+  margin-left: 43%;
 }
 
 section.recepti {
@@ -193,6 +236,12 @@ footer {
   font-weight: 600;
 }
 
+@media only screen and (min-device-width: 1920px) {
+  .tekst {
+    font-size: 1.42em;
+  }
+}
+
 @media only screen and (max-device-width: 1112px) {
   .tekst {
     font-size: 0.85em;
@@ -281,6 +330,14 @@ footer {
 
   .vrsteUsluga {
     margin-left: 22%;
+  }
+
+  #corba {
+    margin-left: -0.7%;
+  }
+
+  #sos {
+    margin-left: -0.7%;
   }
 }
 

@@ -244,6 +244,12 @@ footer {
   font-weight: 600;
 }
 
+@media only screen and (min-device-width: 1920px) {
+  .tekst {
+    font-size: 1.45em;
+  }
+}
+
 @media only screen and (max-device-width: 1112px) {
   .kurziv {
     left: 27%;

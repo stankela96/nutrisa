@@ -170,6 +170,17 @@ footer {
 
 /* ================== RESPONSIVE ================== */
 
+@media only screen and (min-device-width: 1920px) {
+  iframe {
+    height: 710px;
+  }
+
+  .podaci {
+    font-size: 1.25em;
+    height: 35%;
+  }
+}
+
 @media only screen and (max-device-width: 1112px) {
   .podaci {
     width: 64%;
