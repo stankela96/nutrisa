@@ -254,6 +254,10 @@ footer {
     width: 26%;
     margin-left: 37%;
   }
+
+  body {
+    background-repeat: repeat-y;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -287,6 +291,10 @@ footer {
   .postintro {
     top: 8.2em;
   }
+
+  body {
+    background-repeat: repeat-y;
+  }
 }
 
 @media only screen and (max-device-width: 414px) {
@@ -313,6 +321,10 @@ footer {
     width: 32%;
     margin-left: 34%;
   }
+
+  body {
+    background-repeat: repeat-y;
+  }
 }
 
 @media only screen and (max-device-width: 375px) {
@@ -325,6 +337,10 @@ footer {
     top: 10.45em;
     width: 34%;
     margin-left: 33%;
+  }
+
+  body {
+    background-repeat: repeat-y;
   }
 }
 
