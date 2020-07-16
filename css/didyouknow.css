@@ -346,6 +346,10 @@ footer {
     font-size: 0.65em;
     font-weight: 600;
   }
+
+  body {
+    background-repeat: repeat-y;
+  }
 }
 
 .nav-active {
