@@ -337,6 +337,10 @@ footer {
     font-size: 0.8em;
     font-weight: 550;
   }
+
+  iframe {
+    z-index: -1;
+  }
 }
 
 .nav-active {
