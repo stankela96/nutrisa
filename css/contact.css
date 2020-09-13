@@ -74,6 +74,7 @@ header {
 section.sec {
   display: grid;
   grid-template-columns: repeat(2, 50%);
+  height:90vh;
 }
 
 .kontakt {
@@ -97,7 +98,7 @@ section.sec div img {
   overflow: hidden;
   margin-left: 18%;
   position: absolute;
-  top: 6em;
+  top: 10em;
   color: whitesmoke;
   font-size: 1.05em;
   font-weight: 550;
