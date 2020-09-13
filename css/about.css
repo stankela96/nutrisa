@@ -77,12 +77,12 @@ section.dvaDela {
   grid-template-columns: repeat(2, 50%);
   text-align: center;
   background-color: #eff669;
-  /* height: 90vh; */
+  height: 85vh;
   padding-bottom: 4em;
 }
 
 .ja {
-  margin-top: 6em;
+  margin-top: 12em;
   margin-bottom: 2.5em;
   width: 50%;
   margin-left: 35%;
@@ -93,6 +93,7 @@ section.dvaDela {
   text-align: justify;
   font-weight: 450;
   color: #131516;
+  height: 40vh;
 }
 
 #naslov {
@@ -118,7 +119,7 @@ section.dvaDela {
 }
 
 .nesa {
-  margin-top: 6em;
+  margin-top: 12em;
   margin-bottom: 2.5em;
   margin-left: 15%;
   width: 50%;
@@ -129,6 +130,7 @@ section.dvaDela {
   text-align: justify;
   font-weight: 450;
   color: #131516;
+  height: 40vh;
 }
 
 .slikaNesa {
