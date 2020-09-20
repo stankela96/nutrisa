@@ -81,7 +81,6 @@ section.sec {
   margin-top: 3.5em;
   text-align: justify;
   position: relative;
-  /* border-right: 1px solid silver; */
   z-index: -1;
 }
 
@@ -202,6 +201,7 @@ footer {
 }
 
 @media only screen and (max-device-width: 1024px) {
+
   .podaci {
     width: 64%;
     height: 33%;
@@ -308,6 +308,14 @@ footer {
 }
 
 @media only screen and (max-device-width: 414px) {
+
+  .nav-links {
+    z-index: 1;
+  }
+
+  iframe{
+    z-index:-1;
+  }
   .podaci {
     top: 3em;
     width: 90%;
@@ -319,6 +327,14 @@ footer {
 }
 
 @media only screen and (max-device-width: 375px) {
+  .nav-links {
+    z-index: 1;
+  }
+
+  iframe{
+    z-index:-1;
+  }
+
   .podaci {
     top: 3em;
     width: 90%;

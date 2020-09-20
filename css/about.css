@@ -264,19 +264,94 @@ footer {
     display: block;
     cursor: pointer;
   }
+
+  section.dvaDela{
+    height: 100vh;
+  }
+
+  .ja{
+    margin-top:7em;
+  }
 }
 
 @media only screen and (max-device-width: 414px) {
+  section.dvaDela{
+    height: 140vh;
+  }
+
   .ja {
     margin-left: 14%;
     width: 65%;
+    height: 60vh;
   }
 
   .nesa {
     margin-left: 14%;
     width: 65%;
+    height: 60vh;
   }
 }
+
+@media only screen and (max-device-width: 375px) {
+  section.dvaDela{
+    height: 170vh;
+  }
+
+  .ja {
+    margin-left: 14%;
+    width: 65%;
+    height: 70vh;
+    margin-bottom: 3em;
+  }
+
+  .nesa {
+    margin-left: 14%;
+    width: 65%;
+    height: 70vh;
+  }
+}
+
+
+@media only screen and (max-device-width: 360px) {
+  section.dvaDela{
+    height: 190vh;
+  }
+
+  .ja {
+    margin-left: 14%;
+    width: 65%;
+    height: 79vh;
+    margin-bottom: 3em;
+  }
+
+  .nesa {
+    margin-left: 14%;
+    width: 65%;
+    height: 79vh;
+  }
+}
+
+
+
+@media only screen and (max-device-width: 320px) {
+  section.dvaDela{
+    height: 200vh;
+  }
+
+  .ja {
+    margin-left: 14%;
+    width: 65%;
+    height: 85vh;
+    margin-bottom: 2em;
+  }
+
+  .nesa {
+    margin-left: 14%;
+    width: 65%;
+    height: 89vh;
+  }
+}
+
 
 .nav-active {
   transform: translateX(0%);
