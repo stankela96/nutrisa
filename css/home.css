@@ -426,6 +426,32 @@ footer {
   }
 }
 
+@media only screen and (max-device-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+  .naslov {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .kurziv {
+    top: 42%;
+    left: 16%;
+    font-size: 1em;
+  }
+
+  .introTekst {
+    top: 51%;
+    left: 12%;
+    font-size: 1.1em;
+  }
+
+  .tekst {
+    font-size: 1em;
+  }
+}
+
 .nav-active {
   transform: translateX(0%);
 }
